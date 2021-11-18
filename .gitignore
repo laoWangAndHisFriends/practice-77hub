@@ -1,0 +1,7 @@
+amdgpu*
+*.tgz
+*.xz
+log
+timesheet[0-9].*
+timesheet-tmp.*
+node_modules

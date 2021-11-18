@@ -1,0 +1,41 @@
+{
+  "listColumnsDefId": "WK3S8U50HDF0001",
+  "queryListDefId": "HA3S8U50HDF002T",
+  "queryFields": [],
+  "queryOption": {
+    "criteria": {
+      "logic": "AND",
+      "operator": "and",
+      "values": [
+        {
+          "operator": "and",
+          "values": [
+            {
+              "logic": "AND",
+              "operator": "in",
+              "values": ["CSQD8U50HGW0032"],
+              "fieldName": "punchUser"
+            }
+          ]
+        }
+      ]
+    },
+    "criteriaStr": "",
+    "detailCriteriaStr": "",
+    "sorts": [{ "name": "fromDate", "isDesending": false }],
+    "pageNumber": 0,
+    "bindVars": [],
+    "queryFields": [],
+    "pageSize": 200
+  },
+  "criteriaValues": {
+    "timesheetLines.orgRoleType": {
+      "values": [],
+      "operator": "CriteriaOperator.eq"
+    },
+    "timesheetLines.indvRoleType": {
+      "values": [],
+      "operator": "CriteriaOperator.eq"
+    }
+  }
+}
